@@ -1,0 +1,36 @@
+.char{
+    background-color: black;
+    padding: 15px;
+    border: solid rgba(221, 221, 221, 0.2);
+    border-top: transparent;
+    
+}
+.char__header{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+.char__info{
+    margin-left: 10px
+}
+.char__info>p{
+    font-size: 10px;
+    color: gray;
+}
+.char__image{
+    display: flex;
+    justify-content: space-around;
+}
+.char__body>p>img{
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+}
+.char__info>h2{
+    font-size: 15px;
+    color: white;
+}
+.char__body{
+    overflow-wrap: anywhere;
+}
